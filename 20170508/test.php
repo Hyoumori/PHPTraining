@@ -1,5 +1,4 @@
 <?php
-$a="world";
+$a="Hello world";
 echo $a;
-echo "shige"
 ?>
