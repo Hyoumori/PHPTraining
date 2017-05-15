@@ -73,7 +73,7 @@ printf($format, $year, $month, $day);
 <?php
 date_default_timezone_set("Asia/Tokyo");
 $fp = fopen("count.txt","r+");
-$count = fgets( $fp, 10);
+$count = fgets( $fp, 100);
 $count = trim($count);
 $count ++;
 rewind( $fp);
