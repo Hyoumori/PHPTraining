@@ -3,15 +3,18 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
+        <br>
+        <hr>
         <title>お問い合わせ</title>
     </head>
     <body text="A9085B">
         <link rel="stylesheet" type="text/css" href="Web_design.css"/>
-            <hr>
-            <form method="post" action="Web02.php">
+
+            <form action="Web02.php" method="post" name="form" onsubmit="return validate()">
                 <center>
-                お問い合わせ<br>
-                <hr>
+                <font size="6">お問い合わせ</font>
+                <br>
+                <br>
                 <table border="0">
                 <tr><td>
                     姓   　　　　　　　　　<input type="text" name="last_name" size=2><br>
@@ -38,7 +41,7 @@
                     @   <input type="text" name="mail02" size="5"><br>
                 </td></tr>
                 <tr><td>
-                    <input type="hidden" name="where" value="none">
+                    <!--<input type="hidden" name="where" value="none">-->
                     どこで知ったか     　　　<input type="checkbox" name="where01" value="雑誌">雑誌
                                         <input type="checkbox" name="where02" value="新聞">新聞<br>
                 </td></tr>
