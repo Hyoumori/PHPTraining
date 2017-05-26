@@ -1,0 +1,166 @@
+html, body {
+    height: 100%;
+}
+.haikei{
+    background-image: url("ado1-1.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+/*.haikei2{
+    background-color:;
+    background-image: url("ado2.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}*/
+
+
+td{
+    border-bottom: 1px dashed #ff69b4;
+}
+
+.caption{
+
+}
+
+.ran{
+    min-width: 930px;
+}
+
+.kogorou{
+    padding: 5px;
+    background-color: white;
+}
+
+.kadomaru{
+position: relative;
+padding: 0.25em 1em;
+border: solid 2px orange;
+border-radius: 3px 0 3px 0;
+}
+#kkk{
+    background-color: #fff4ea;
+}
+#kkk2{
+    background-color: #0ff4ea;
+}
+.kadomaru:before,.kadomaru:after
+{
+content: '';
+position: absolute;
+width:20px;
+height: 20px;
+border: solid 2px orange;
+border-radius: 3%;
+}
+
+.kadomaru:after {top:-12px;left:-12px;}
+.kadomaru:before {bottom:-12px;right:-12px;}
+
+.button {
+
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    /*color: #2d2d2d;*/
+    background-color: #fff0d9;
+    border-style: solid;
+    border-top: white;
+    border-left:  white;
+    border-right: white;
+    border-bottom-color: orange;
+    border-bottom-width: 5px;
+}
+
+h1 {
+position: relative;
+padding: 5px 26px 5px 42px;
+background: #fff0d9;
+font-size: 25px;
+color: #2d2d2d;
+margin-left: 60px;
+margin-right: 70px;
+line-height: 1.3;
+border-bottom: solid 3px orange;
+z-index:-2;
+}
+
+h2 {
+position: relative;
+padding: 5px 26px 5px 42px;
+background: #fff0d9;
+font-size: 25px;
+color: #2d2d2d;
+margin-left: 60px;
+margin-right: 70px;
+line-height: 1.3;
+border-bottom: solid 3px orange;
+z-index:-2;
+}
+
+.table{
+    border-style: solid;
+    border-color: orange;
+    width: 500px;
+    padding: 5;
+}
+
+td {
+    border-style:
+}
+
+td {
+    vertical-align: middle;
+}
+
+.ttt {
+    margin:auto;
+}
+
+.mark_1{
+    font-weight: bold;
+    background-image: url("images/mark_1.gif");
+}
+
+.mark_2{
+    font-weight: bold;
+    background-image: url("images/mark_2.gif");
+}
+
+.mark_3{
+    font-weight: bold;
+    background-image: url("images/mark_3.gif");
+}
+
+.mark_4{
+    font-weight: bold;
+    background-image: url("images/mark_4.gif");
+}
+
+.mark_5{
+    font-weight: bold;
+    background-image: url("images/mark_5.gif");
+}
+.mark_6{
+    font-weight: bold;
+    background-image: url("images/mark_6.gif");
+}
+.mark_7{
+    font-weight: bold;
+    background-image: url("images/mark_7.gif");
+}
+.mark_8{
+    font-weight: bold;
+    background-image: url("images/mark_8.gif");
+}
+.mark_9{
+    font-weight: bold;
+    background-image: url("images/mark_9.gif");
+}
+.mark_10{
+    font-weight: bold;
+    background-image: url("images/mark_10.gif");
+}
+.mark_11{
+    font-weight: bold;
+    background-image: url("images/mark_11.gif");
+}

@@ -15,6 +15,7 @@
                 <!--問い合わせ内容表示-->
 
 
+                <br><br>
                 <hr>
                 <div class="ttt">
                 <h1>お問い合わせ完了</h1><hr>
@@ -60,7 +61,7 @@
             お問い合わせ番号：<?= $count?><br>
 
             <hr>
-            <a href="Web01.php">問合せフォーム</a>
+            <a href="Web01.php">お問合せHOME</a>
         </div>
         <center>
     </body>
