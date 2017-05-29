@@ -8,8 +8,8 @@
         <title>お問い合わせ</title>
     </head>
     <body class="haikei">
-        <link rel="stylesheet" type="text/css" href="Web_design.css"/>
 
+        <link rel="stylesheet" type="text/css" href="Web_design.css"/>
             <form action="Web02.php" method="post" name="form" onsubmit="return validate()">
                 <center>
                 <h1>お問い合わせ</h1>
@@ -71,11 +71,11 @@
                 </td></tr>
                 <tr><td>
                     質問内容<br>
-                    <textarea name="question" cols="44" rows="8" placeholder="＿|￣| Σ･∴’、-=≡( ՞ਊ ՞)　キチガイお届け！"></textarea>
+                    <textarea class="a" name="question" cols="44" rows="8"  maxlength="15"></textarea>
                 </td></tr>
-                <tr><td>
+                <tr><td align="center" valign="middle">
                     <input class="button" type="submit" name="submit" value="確認">
-                    <input class="button" type="reset" value="リセット">
+                    　　<input class="button" type="reset" value="リセット">
                 </td></tr>
             </table>
         </center>

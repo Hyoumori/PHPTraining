@@ -1,0 +1,224 @@
+body {
+  overflow: hidden;
+}
+
+.window__scene {
+  position: relative;
+  width: 200vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #E08183 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI3OTguNzAycHgiIGhlaWdodD0iNzk4LjcwMnB4IiB2aWV3Qm94PSIwIDAgNzk4LjcwMiA3OTguNzAyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA3OTguNzAyIDc5OC43MDIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxyZWN0IGZpbGw9IiNFMDgyODMiIHdpZHRoPSI3OTguNzAyIiBoZWlnaHQ9Ijc5OC43MDIiLz48Zz48cGF0aCBmaWxsPSIjRTY5QzlEIiBkPSJNMTcxLjMzOSwxODAuMDUxaC02OS4xODVjLTYuNjE4LDAtMTIuMDMzLDUuNDE0LTEyLjAzMywxMi4wMzJ2MjIuNTZjMCw2LjYxOCw1LjQxNSwxMi4wMzMsMTIuMDMzLDEyLjAzM2g2OS4xODVjNi42MTcsMCwxMi4wMzItNS40MTUsMTIuMDMyLTEyLjAzM3YtMjIuNTZDMTgzLjM3MiwxODUuNDY1LDE3Ny45NTcsMTgwLjA1MSwxNzEuMzM5LDE4MC4wNTF6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTIwMi44ODcsMTIzLjM3Nmg2OS4xODVjNi42MTgsMCwxMi4wMzMtNS40MTQsMTIuMDMzLTEyLjAzMnYtMjIuNTZjMC02LjYxOS01LjQxNS0xMi4wMzMtMTIuMDMzLTEyLjAzM2gtNjkuMTg1Yy02LjYxNywwLTEyLjAzMiw1LjQxNC0xMi4wMzIsMTIuMDMzdjIyLjU2QzE5MC44NTQsMTE3Ljk2MiwxOTYuMjcsMTIzLjM3NiwyMDIuODg3LDEyMy4zNzZ6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTIxNy45NjQsMTI3LjcxMmgtNjkuMTg1Yy02LjYxOCwwLTEyLjAzMyw1LjQxNS0xMi4wMzMsMTIuMDMydjIyLjU2MWMwLDYuNjE4LDUuNDE1LDEyLjAzMiwxMi4wMzMsMTIuMDMyaDY5LjE4NWM2LjYxOCwwLDEyLjAzMi01LjQxNSwxMi4wMzItMTIuMDMydi0yMi41NjFDMjI5Ljk5NiwxMzMuMTI3LDIyNC41ODIsMTI3LjcxMiwyMTcuOTY0LDEyNy43MTJ6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTEyOS43MywxNjIuMzA1di0yMi41NjFjMC02LjYxOC01LjQxNS0xMi4wMzItMTIuMDMyLTEyLjAzMkg0OC41MTNjLTYuNjE4LDAtMTIuMDMyLDUuNDE1LTEyLjAzMiwxMi4wMzJ2MjIuNTYxYzAsNi42MTgsNS40MTQsMTIuMDMyLDEyLjAzMiwxMi4wMzJoNjkuMTg2QzEyNC4zMTYsMTc0LjMzNywxMjkuNzMsMTY4LjkyMywxMjkuNzMsMTYyLjMwNXoiLz48cGF0aCBmaWxsPSIjRTY5QzlEIiBkPSJNNTE1LjYwNCwxMDcuOTIxdjIyLjU2MWMwLDYuNjE4LDUuNDE1LDEyLjAzMiwxMi4wMzIsMTIuMDMyaDY5LjE4NmM2LjYxOCwwLDEyLjAzMi01LjQxNSwxMi4wMzItMTIuMDMydi0yMi41NjFjMC02LjYxOC01LjQxNC0xMi4wMzItMTIuMDMyLTEyLjAzMmgtNjkuMTg2QzUyMS4wMTksOTUuODg5LDUxNS42MDQsMTAxLjMwMyw1MTUuNjA0LDEwNy45MjF6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTYyNy4zNjgsMTQyLjUxNGg2OS4xODVjNi42MTgsMCwxMi4wMzQtNS40MTUsMTIuMDM0LTEyLjAzMnYtMjIuNTYxYzAtNi42MTgtNS40MTYtMTIuMDMyLTEyLjAzNC0xMi4wMzJoLTY5LjE4NWMtNi42MTksMC0xMi4wMzIsNS40MTUtMTIuMDMyLDEyLjAzMnYyMi41NjFDNjE1LjMzNSwxMzcuMDk5LDYyMC43NDksMTQyLjUxNCw2MjcuMzY4LDE0Mi41MTR6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTU3NC4yNjEsMTU1LjI4NGMtNi42MTcsMC0xMi4wMzEsNS40MTUtMTIuMDMxLDEyLjAzM3YyMi41NjFjMCw2LjYxNyw1LjQxNCwxMi4wMzIsMTIuMDMxLDEyLjAzMmg2OS4xODdjNi42MTcsMCwxMi4wMzEtNS40MTUsMTIuMDMxLTEyLjAzMnYtMjIuNTYxYzAtNi42MTgtNS40MTQtMTIuMDMzLTEyLjAzMS0xMi4wMzNINTc0LjI2MXoiLz48cGF0aCBmaWxsPSIjRTY5QzlEIiBkPSJNMzU0LjIwMyw0MTMuMDR2LTIyLjU2MWMwLTYuNjE4LTUuNDE0LTEyLjAzMi0xMi4wMzItMTIuMDMyaC02OS4xODZjLTYuNjE3LDAtMTIuMDMyLDUuNDE1LTEyLjAzMiwxMi4wMzJ2MjIuNTYxYzAsNi42MTcsNS40MTUsMTIuMDMyLDEyLjAzMiwxMi4wMzJoNjkuMTg2QzM0OC43ODksNDI1LjA3MiwzNTQuMjAzLDQxOS42NTcsMzU0LjIwMyw0MTMuMDR6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTQ0MS45MDEsMzc4LjQ0N2gtNjkuMTg1Yy02LjYxOSwwLTEyLjAzMiw1LjQxNS0xMi4wMzIsMTIuMDMydjIyLjU2MWMwLDYuNjE3LDUuNDEzLDEyLjAzMiwxMi4wMzIsMTIuMDMyaDY5LjE4NWM2LjYxOCwwLDEyLjAzNC01LjQxNSwxMi4wMzQtMTIuMDMydi0yMi41NjFDNDUzLjkzNSwzODMuODYxLDQ0OC41MTksMzc4LjQ0Nyw0NDEuOTAxLDM3OC40NDd6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTM4OC43OTYsNDM3Ljg0MkgzMTkuNjFjLTYuNjE3LDAtMTIuMDMxLDUuNDE0LTEyLjAzMSwxMi4wMzN2MjIuNTYxYzAsNi42MTcsNS40MTQsMTIuMDMxLDEyLjAzMSwxMi4wMzFoNjkuMTg3YzYuNjE3LDAsMTIuMDMxLTUuNDE0LDEyLjAzMS0xMi4wMzF2LTIyLjU2MUM0MDAuODI4LDQ0My4yNTYsMzk1LjQxNCw0MzcuODQyLDM4OC43OTYsNDM3Ljg0MnoiLz48cGF0aCBmaWxsPSIjRTY5QzlEIiBkPSJNNzQzLjE3Nyw2NTYuMTg4aC02OS4xODVjLTYuNjE5LDAtMTIuMDMzLDUuNDE1LTEyLjAzMywxMi4wMzJ2MjIuNTZjMCw2LjYyLDUuNDE0LDEyLjAzMiwxMi4wMzMsMTIuMDMyaDY5LjE4NWM2LjYxNywwLDEyLjAzMy01LjQxMiwxMi4wMzMtMTIuMDMydi0yMi41NkM3NTUuMjEsNjYxLjYwMyw3NDkuNzk0LDY1Ni4xODgsNzQzLjE3Nyw2NTYuMTg4eiIvPjxwYXRoIGZpbGw9IiNFNjlDOUQiIGQ9Ik02OTYuNTUyLDcxMS4zMzNoLTY5LjE4NWMtNi42MTksMC0xMi4wMzIsNS40MTUtMTIuMDMyLDEyLjAzMnYyMi41NjFjMCw2LjYxNyw1LjQxMywxMi4wMzEsMTIuMDMyLDEyLjAzMWg2OS4xODVjNi42MTgsMCwxMi4wMzEtNS40MTQsMTIuMDMxLTEyLjAzMXYtMjIuNTYxQzcwOC41ODMsNzE2Ljc0OCw3MDMuMTcsNzExLjMzMyw2OTYuNTUyLDcxMS4zMzN6Ii8+PHBhdGggZmlsbD0iI0U2OUM5RCIgZD0iTTU5Ni44MjIsNzExLjMzM2gtNjkuMTg2Yy02LjYxNywwLTEyLjAzMiw1LjQxNS0xMi4wMzIsMTIuMDMydjIyLjU2MWMwLDYuNjE3LDUuNDE1LDEyLjAzMSwxMi4wMzIsMTIuMDMxaDY5LjE4NmM2LjYxOCwwLDEyLjAzMi01LjQxNCwxMi4wMzItMTIuMDMxdi0yMi41NjFDNjA4Ljg1NCw3MTYuNzQ4LDYwMy40NCw3MTEuMzMzLDU5Ni44MjIsNzExLjMzM3oiLz48cGF0aCBmaWxsPSIjRTY5QzlEIiBkPSJNNTU0LjkyNiw3OS41OTdWNTcuMDM2YzAtNi42MTctNS40MTUtMTIuMDMyLTEyLjAzMi0xMi4wMzJoLTY5LjE4N2MtNi42MTcsMC0xMi4wMzEsNS40MTUtMTIuMDMxLDEyLjAzMnYyMi41NjFjMCw2LjYxOCw1LjQxNCwxMi4wMzIsMTIuMDMxLDEyLjAzMmg2OS4xODdDNTQ5LjUxMSw5MS42MjksNTU0LjkyNiw4Ni4yMTUsNTU0LjkyNiw3OS41OTd6Ii8+PC9nPjwvZz48L3N2Zz4=) repeat;
+  background-size: 30%;
+}
+
+.window__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 150vw;
+  transform: translate(-50%, -50%);
+}
+
+svg:not(:root) {
+  overflow: visible;
+  display: block;
+  width: 200vw;
+}
+
+.btn-start {
+  transform: translateX(-100vw);
+
+  &__neon {
+    animation: btn-start__neon 1s steps(1, end) infinite;
+  }
+}
+
+// Play animation on :target event
+#start {
+  &:target {
+    .window__scene {
+      animation:
+        wall 8s linear forwards 2s,
+        wall--ease 6s ease-out forwards 6.7s;
+    }
+
+    .man {
+      transform: translateX(calc(-140vw));
+      animation: man 20s linear forwards;
+
+      .man__bounce {
+        animation: man--bounce .3s ease-in-out alternate infinite;
+      }
+
+      .eye {
+        animation: man__eye 3s steps(4, end) infinite;
+      }
+
+      .arm__right {
+        transform-origin: 90px 610px;
+        animation: man__arm--right .6s ease-in-out alternate infinite;
+      }
+
+      .arm__left {
+        transform-origin: top left;
+        animation: man__arm--left .6s ease-in-out alternate infinite;
+      }
+
+      .leg__right {
+        transform-origin: top left;
+        animation: man__leg--right .6s ease-out alternate infinite;
+      }
+
+      .leg__left {
+        transform-origin: top right;
+        animation: man__leg--left .6s ease-out alternate infinite;
+      }
+    }
+
+    .window--left,
+    .window--right {
+      perspective: 1000px;
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
+    }
+
+    .window--left {
+      transform-origin: left !important;
+      animation: window--left 1s ease forwards 12.75s;
+
+      .window__shadow {
+        transform-origin: right;
+        animation: window__shadow 0.3s ease forwards 13.5s;
+      }
+    }
+
+    .window--right {
+      transform-origin: right !important;
+      animation: window--right 1s ease forwards 12.75s;
+
+      .window__shadow {
+        transform-origin: left;
+        animation: window__shadow 0.3s ease forwards 13.5s;
+      }
+    }
+
+    .window__shadow {
+      transform: scaleX(0);
+    }
+
+    // Animate each of the flowers with a bit of delay between each other
+    @for $i from 1 to 9 {
+      .flower#{$i} {
+        transform: translateY(40px) scale(0.1);
+        transform-origin: bottom center;
+        animation: flowers 0.5s ease forwards #{(0.1 * $i) + 12.45}s
+      }
+    }
+  }
+}
+
+// Go! neon
+@keyframes btn-start__neon {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+// Flowers
+@keyframes flowers {
+  to {
+    transform-origin: bottom center;
+    transform: translateY(0) scale(1);
+  }
+}
+
+// Open window keyframes
+@keyframes window--left {
+  to {
+    transform: perspective(1000px) rotateY(-180deg);
+  }
+}
+
+@keyframes window--right {
+  to {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+@keyframes window__shadow {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+// Wrapper transitions
+@keyframes wall {
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes wall--ease {
+  from {
+    transform: translateX(-59vw);
+  }
+
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+// Man related keyframes
+@keyframes man {
+  to {
+    transform: translateX(2000px);
+  }
+}
+
+@keyframes man--bounce {
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes man__eye {
+  0%,
+  4% {
+    transform: scaleY(0.2);
+    transform-origin: bottom;
+  }
+
+  2%,
+  6% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+}
+
+@keyframes man__arm--right {
+  to {
+    transform: rotate(-40deg);
+  }
+}
+
+@keyframes man__arm--left {
+  to {
+    transform: rotate(40deg);
+  }
+}
+
+@keyframes man__leg--right {
+  to {
+    transform: rotate(50deg);
+  }
+}
+
+@keyframes man__leg--left{
+  to {
+    transform: rotate(-30deg);
+  }
+}

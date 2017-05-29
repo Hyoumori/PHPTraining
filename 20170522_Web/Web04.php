@@ -60,8 +60,8 @@
 
             お問い合わせ番号：<?= $count?><br>
 
-            <hr>
-            <a href="Web01.php">お問合せHOME</a>
+
+            <a color="black" href="Web01.php" class="mark_11">お問合せHOME</a>
         </div>
         <center>
     </body>

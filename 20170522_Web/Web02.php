@@ -30,7 +30,7 @@
 <hr>
 <title>お問い合わせフォーム</title>
 </head>
-<body>
+<body class="haikei2">
 <link rel="stylesheet" href="Web_design.css">
 <center>
     <form action="Web04.php" method="post">
@@ -106,9 +106,9 @@
         </div>
         <br>
         <input class="button" type="button" value="編集" onclick="history.back(-1)">
-        <input class="button" type="submit"　value="送信" name="submit">
+        　　　<input class="button" type="submit"　value="送信" name="submit">
     </form>
-    <hr>
+    
 </center>
 </body>
 </html>

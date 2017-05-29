@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="Web_design.css">
     </head>
 
-    <body class="ran haikei haikei2">
+    <body class="ran haikei">
         <center>
             <br><br>
             <hr>

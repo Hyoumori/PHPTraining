@@ -1,11 +1,25 @@
+
 html, body {
     height: 100%;
 }
+
+.a{
+    resize: none;
+}
+
+/*Web05　背景画像*/
 .haikei{
     background-image: url("ado1-1.png");
     background-position: left bottom;
     background-repeat: no-repeat;
 }
+
+.haikei2{
+    background-image: url("ado2.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
 /*.haikei2{
     background-color:;
     background-image: url("ado2.png");
@@ -56,19 +70,20 @@ border-radius: 3%;
 .kadomaru:after {top:-12px;left:-12px;}
 .kadomaru:before {bottom:-12px;right:-12px;}
 
+/*Web01 Web02のボタン*/
 .button {
-
     width: auto;
     height: auto;
     font-size: 20px;
     /*color: #2d2d2d;*/
     background-color: #fff0d9;
     border-style: solid;
-    border-top: white;
+    /*border-top: white;
     border-left:  white;
     border-right: white;
     border-bottom-color: orange;
-    border-bottom-width: 5px;
+    border-bottom-width: 5px;*/
+    border-radius: 5px;
 }
 
 h1 {
@@ -116,6 +131,7 @@ td {
     margin:auto;
 }
 
+/*クレヨン*/
 .mark_1{
     font-weight: bold;
     background-image: url("images/mark_1.gif");
@@ -155,6 +171,7 @@ td {
 .mark_9{
     font-weight: bold;
     background-image: url("images/mark_9.gif");
+
 }
 .mark_10{
     font-weight: bold;
