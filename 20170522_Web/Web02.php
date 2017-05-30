@@ -28,7 +28,7 @@
 <br>
 <br>
 <hr>
-<title>お問い合わせフォーム</title>
+<title>内容確認</title>
 </head>
 <body class="haikei2">
 <link rel="stylesheet" href="Web_design.css">
@@ -50,55 +50,55 @@
                 print "<input type=\"hidden\" name=\"question[]\" value=".$mintia[$i].">";
             }
         ?>
-            <h1>お問い合わせ 内容確認</h1>
-            <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</p>
+            <h1>内容確認</h1>
+            <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信」ボタンを押して下さい。</p>
             <div class="table">
             <table class="type01" border="0" bordercolor="A9085B" text-align="center" width="500px">
             <tr><td width="50%">
-                    <label class="mark_3">性</label>
+                    <label>性</label>
             </td><td width="50%">
                      <p><?php echo $last_name; ?></p>
             </td></tr>
             <tr><td>
-                    <label class=mark_3>名</label>
+                    <label>名</label>
             </td><td>
                     <p><?php echo $first_name; ?></p>
             </td></tr>
             <tr><td>
-                    <label class=mark_3>性別</label>
+                    <label>性別</label>
             </td><td>
                     <p><?php echo $gender; ?></P>
             </td></tr>
             <tr><td>
-                    <label class=mark_3>住所</label>
+                    <label>住所</label>
             </td><td>
                     <p><?php echo $address; ?></p>
             </td></tr>
             <tr><td>
-                    <label class=mark_3>電話番号</label>
+                    <label>電話番号</label>
             </td><td>
                     <p><?php echo $tel01 ."-". $tel02 ."-". $tel03; ?></p>
             </td></tr>
             <tr><td>
-                    <label class="mark_3">メールアドレス</label>
+                    <label>メールアドレス</label>
             </td><td>
                     <p><?php echo $mail01 ?></p>
             </td></tr>
             <tr>
                 <td>
-                    <label class="mark_3">どこで知ったか</label>
+                    <label>どこで知ったか</label>
                 </td>
 				<td>
                     <p><?= $where01." ".$where02; ?>
                 </td>
             </tr>
             <tr><td>
-                    <label class="mark_3">質問カテゴリ</label>
+                    <label>質問カテゴリ</label>
             </td><td>
                     <p><?php echo $category; ?></p>
             </td></tr>
             <tr><td width="50" height="80">
-                    <label class="mark_3">質問内容</label>
+                    <label>質問内容</label>
             </td><td width="100">
                     <p><?php echo str_replace("\n","<br>",$question) ?></p>
             </td></tr>
@@ -108,7 +108,7 @@
         <input class="button" type="button" value="編集" onclick="history.back(-1)">
         　　　<input class="button" type="submit"　value="送信" name="submit">
     </form>
-    
+
 </center>
 </body>
 </html>

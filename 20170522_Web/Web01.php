@@ -7,25 +7,25 @@
         <hr>
         <title>お問い合わせ</title>
     </head>
-    <body class="haikei">
-
+    <body class="haikei3">
         <link rel="stylesheet" type="text/css" href="Web_design.css"/>
             <form action="Web02.php" method="post" name="form" onsubmit="return validate()">
+
                 <center>
                 <h1>お問い合わせ</h1>
                 <br>
                 <br>
                 <table border="0">
                 <tr><td>
-                    <label>姓</label>   　　　　　　　　　<input required type="text" name="last_name" size=2 pattern="[^\s]+" placeholder="毛利"><br>
+                    <label>姓</label>   　　　　　　　　　<input required type="text" name="last_name" size=3 pattern="[^\s]+" placeholder="毛利"><br>
                 </td></tr>
                 <tr><td>
-                    名   　　　　　　　　　<input required type="text" name="first_name" size=2 pattern="[^\s]+" placeholder="小五郎"><br>
+                    名   　　　　　　　　　<input required type="text" name="first_name" size=3 pattern="[^\s]+" placeholder="小五郎"><br>
                 </td></tr>
                 <tr><td>
-                    <label>性別</label>  　　　　　　　　<input type="radio" name="gender" value="男" checked="checked">男
-                        <input type="radio" name="gender" value="女">女
-                        <input type="radio" name="gender" value="不明">不明<br>
+                    <label>性別</label>  　　　　　　　　<input class="buruburu-hover" type="radio" name="gender" value="男" checked="checked" id="man"><label for="man">男</label>
+                        <input class="buruburu-hover" type="radio" name="gender" value="女" id="woman"><label for="woman">女</label>
+                        <input class="buruburu-hover" type="radio" name="gender" value="不明" id="nazo"><label for="nazo">不明</label><br>
                     </td></tr>
                     <tr><td>
                     住所  　　　　　　　　<input type="text" name="address" size="19" placeholder="東京都米花市米花町5丁目"><br>
@@ -43,8 +43,8 @@
                 <tr><td>
                     <input type="hidden" name="where01" value="">
                     <input type="hidden" name="where02" value="">
-                    どこで知ったか     　　　<input type="checkbox" name="where01" value="雑誌">雑誌
-                                        <input type="checkbox" name="where02" value="新聞">新聞<br>
+                    どこで知ったか     　　　<input class="buruburu-hover" type="checkbox" name="where01" value="雑誌" id="magazine"><label for="magazine">雑誌</label>
+                                        <input class="buruburu-hover" type="checkbox" name="where02" value="新聞" id="newspaper"><label for="newspaper">新聞</label><br>
                 </td></tr>
                 <tr><td>
                     質問カテゴリ  　　　　<select name="category">
@@ -71,11 +71,12 @@
                 </td></tr>
                 <tr><td>
                     質問内容<br>
-                    <textarea class="a" name="question" cols="44" rows="8"  maxlength="15"></textarea>
+                    <textarea class="a buruburu-hover" name="question" cols="44" rows="8"  maxlength="15"></textarea>
                 </td></tr>
                 <tr><td align="center" valign="middle">
-                    <input class="button" type="submit" name="submit" value="確認">
-                    　　<input class="button" type="reset" value="リセット">
+                    　<input class="button buruburu-hover" type="reset" value="クリア">
+                    　　　<input class="button buruburu-hover" type="submit" name="submit" value="確認">
+                    　　
                 </td></tr>
             </table>
         </center>

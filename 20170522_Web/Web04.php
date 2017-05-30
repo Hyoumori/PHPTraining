@@ -2,9 +2,9 @@
 <html>
     <head>
         <!--
-            問合せ完了
+            お問合せ完了
 
-            問合せフォーム → (入力内容を初期化して)問合せフォーム Web01.php
+            お問合せフォーム → (入力内容を初期化して)問合せフォーム Web01.php
         -->
         <title>お問い合わせ終了</title>
         <link rel="stylesheet" type="text/css" href="Web_design.css">
@@ -12,7 +12,7 @@
 
     <body>
         <center>
-                <!--問い合わせ内容表示-->
+                <!--お問い合わせ内容表示-->
 
 
                 <br><br>
@@ -20,7 +20,7 @@
                 <div class="ttt">
                 <h1>お問い合わせ完了</h1><hr>
 
-            <!--問合せ番号カウンタ・問い合わせ内容保存(csv形式)-->
+            <!--お問合せ番号　csvへ-->
             <?php
                 $fp = fopen( "count.csv", "r+" );
                 //$str=trim(fgets($fp));
@@ -61,7 +61,7 @@
             お問い合わせ番号：<?= $count?><br>
 
 
-            <a color="black" href="Web01.php" class="mark_11">お問合せHOME</a>
+            <a color="black" href="Web01.php">TOP</a>
         </div>
         <center>
     </body>

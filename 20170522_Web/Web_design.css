@@ -1,8 +1,45 @@
 
+/*性別･なんで知ったか　文字　色*/
+label[for="man"]:hover{
+    color:orange;
+}
+input#man:hover+label{
+    color:orange;
+}
+label[for="woman"]:hover{
+    color: orange;
+}
+input#woman:hover+label{
+    color: orange;
+}
+label[for="nazo"]:hover{
+    color: orange;
+}
+input#nazo:hover+label{
+    color: orange;
+}
+label[for="magazine"]:hover{
+    color: orange;
+}
+input#magazine:hover+label{
+    color: orange;
+}
+label[for="newspaper"]:hover{
+    color: orange;
+}
+input#newspaper:hover+label{
+    color: orange;
+}
+
 html, body {
     height: 100%;
 }
 
+.display{
+    display: block;
+}
+
+/*Web01-74*/
 .a{
     resize: none;
 }
@@ -19,6 +56,15 @@ html, body {
     background-position: left bottom;
     background-repeat: no-repeat;
 }
+.haikei3{
+    background-image: url("ado4.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.eeee{
+    width: 1200px;
+    margin: auto;
+}
 
 /*.haikei2{
     background-color:;
@@ -27,17 +73,36 @@ html, body {
     background-repeat: no-repeat;
 }*/
 
+.buruburu-hover:hover {
+    display: inline-block;
+    animation: hurueru .1s  infinite;
+}
+@keyframes hurueru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
+
+.buruburu {
+    display: inline-block;
+    animation: hurueru .1s  infinite;
+}
+@keyframes hurueru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
 
 td{
     border-bottom: 1px dashed #ff69b4;
 }
 
-.caption{
-
-}
-
 .ran{
-    min-width: 930px;
+    min-width: 980px;
 }
 
 .kogorou{
